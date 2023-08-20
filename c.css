@@ -1,0 +1,423 @@
+body{
+
+    font-family: Poppins;
+    color: #232323;
+    margin: 0;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;   
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.section .container {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.section {
+    padding-top: 5.3125rem;
+    overflow: unset;
+   
+}
+
+
+
+.section {
+    padding : 5.75rem 24px 0;
+    
+}
+.section .container{
+    position: relative;
+}
+
+  
+
+section {
+    display: block;
+}
+@media screen and (max-width: 767px){
+
+.section {
+    padding-top: 5.3125rem;
+    overflow: unset;
+   
+}
+}
+
+
+.section {
+    padding : 5.75rem 24px 0;
+    
+}
+
+
+
+
+
+@media screen and (min-width: 767px){
+.container {
+    max-width: 100%;
+}
+
+}
+.container {
+    max-width: 100%;}
+.section .container{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+   
+} 
+
+@media screen and (max-width: 767px){
+.members .section-header {
+    text-align: center;
+
+
+}
+}
+
+
+@media screen and (max-width: 768px){
+.members .section-title {
+    max-width: 90%;
+    display: inline-block;
+   
+}
+}
+.section-title {
+    font-family: "Poppins Bold";
+    font-size: 4.75rem;
+    color: #232323;
+    margin-top: 0;
+    letter-spacing: -.7px;
+    margin-bottom: 3.375rem;
+    line-height: 1.1;
+    text-align: center;
+    
+}
+
+.team {
+
+    width:800px;
+}
+
+.team {
+    max-width: 100%;
+    margin-bottom : 20px;}
+
+    
+    .team {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto 4.25rem;
+        -webkit-box-pack: center;
+
+    }
+
+    @media screen and (max-width: 767px){
+.team {
+    max-width: 100%;
+    margin-bottom : 20px;}
+
+    }
+   
+    
+
+    .team-member {
+        max-width: 33.33333%;
+        -webkit-box-flex: 0;
+      
+        flex: 0 0 28%;
+        padding: 0 8px;
+    }
+        
+    .team-member{
+        position: relative;
+        margin-bottom: 2.25rem;
+        perspective: 1000px;
+    }
+        
+    
+    .team-member .card{
+        position: relative;
+        width: 100%;
+    }
+    
+    
+    .team-member .card-front{
+        width: 100%;
+    }
+    
+    
+    .team-member__image {
+        padding-top: 100%;
+        position: relative;
+        margin-bottom: 1.25rem;
+        height: 10vw;
+        width: 100%;
+        margin-right: 1rem;
+    }
+    
+    .team-member__image .img-holder {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    figure, ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .team-member__image .img-holder img {
+        display: block;
+        width:100vw;
+        height: 100vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+        background-color: greenyellow;
+    
+    }
+    
+    img {
+        border-style: none;
+    }
+
+
+    @media screen and (max-width: 767px){
+.team-member {
+    max-width: 33.33333%;
+    -webkit-box-flex: 0;
+  
+    flex: 0 0 33.33333%;
+    padding: 0 8px;
+}}
+    
+
+
+@media screen and (max-width: 767px){
+.team-member__title {
+    font-family: "Poppins Semibold";
+    font-size: 14px;
+   
+}
+}
+.team-member__title {
+   
+    margin-bottom: 0.25rem;
+}
+
+
+
+h3 {
+    margin-top: 0;
+    display: block;
+ text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 767px){
+.team-member__subtitle {
+    font-size: 12px;
+
+    
+}
+
+
+}
+
+.team-member__subtitle {
+    
+    color: #8ca5c6;
+}
+p.team-member__subtitle{
+    text-align: center;
+}
+
+.team-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.25rem; 
+}
+
+
+.team-member {
+    width: calc(16.66667% - 16px); 
+
+    padding: 0 8px;
+    
+}
+
+
+.team-member{
+
+    width: 300px;
+}
+@media screen and (min-width: 768px) {
+    
+    .team-member {
+        width: calc(16.66667% - 5px); 
+        padding: 0 16px;
+    }
+}
+
+
+
+
+
+@media(max-width: 468px)
+{
+   .team-member{
+      width: 200px;
+      height: 300px;
+   }
+}
+
+@media(max-width: 768px)
+{
+   .row2{
+      flex: 0 0 auto;
+      width:100%;
+
+   }
+}
+
+    
+
+
+@media (max-width: 1000px) {
+    .team-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 1.25rem;
+    }
+
+    .team-member {
+        flex-basis: calc(50% - 16px);
+        margin: 0 8px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .team-member {
+        flex-basis: calc(16.66667% - 20px);
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 700px) {
+    .team-member {
+        flex-basis: calc(50% - 16px);
+        height: auto;
+        width: auto;
+    
+    }
+   
+}
+
+.container{
+    position: relative;
+   padding-bottom: 56.7%; 
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      padding-bottom: 75%; 
+    }
+  }
+
+  @media screen and (max-width: 991px){
+ .section-header .text.text-italic {
+    font-style: normal;}
+ }
+    @media screen and (max-width: 991px){
+ .section-header .text {
+    max-width: 80%;
+    font-family: "Work Sans Medium";}}
+
+    .text {
+        font-family: "Work Sans";
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: normal;
+    }
+
+    .text {
+        color: #232323;
+
+    }
+    .section-header .text {
+        font-size: 18px;}
+
+        .section-title1 {
+            font-family: "Poppins Bold";
+            font-size: 2.75rem;
+            color: #232323;
+            margin-top: 0;
+            letter-spacing: -.7px;
+            margin-bottom: 0.375rem;
+            line-height: 1.1;
+            text-align: left;
+            
+        }
+
+        @media screen and (max-width: 767px){
+.about .section-header .section-title.title-decor {
+    padding-bottom: 0;
+    margin-bottom: 16px;}
+
+    header {
+        display: block;
+    }
+
+        }
+
+
+        .section-header{
+          
+             margin-bottom: 20px;
+
+        }
+
+
+        .section-header2{
+            margin: 50px;
+            padding-left: 20px;
+             margin-bottom: 20px;
+
+        }

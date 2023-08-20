@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.wrapper {
+  display: flex;
+  max-width: 100rem; 
+  position: relative;
+  margin: auto;
+  align-items: center;
+}
+
+
+.wrapper i {
+  top: 50%;
+  height: 2.75rem;
+  width: 2.75rem; 
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 2.75rem; 
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+
+
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.9);
+}
+
+
+.wrapper i:hover {
+  background: #f2f2f2;
+}
+
+
+.wrapper i:first-child {
+  left: 0; 
+  display: none;
+}
+
+
+.wrapper i:last-child {
+  right: -2.75rem; 
+}
+
+
+.carousel.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+
+.carousel.dragging  iframe {
+  pointer-events: none;
+}
+
+.carousel   iframe {
+  height: 15.25rem; 
+  width: calc(33.33% - 1.875rem); 
+  margin: 0 0.625rem; 
+}
+
+
+@media screen and (max-width: 56.25rem) { 
+  .carousel   iframe {
+    width: calc(50% - 1.25rem);
+  }
+}
+
+@media screen and (max-width: 34.375rem) { 
+  .carousel  iframe {
+    width: 100%;
+  }
+}
+
+  
+  .wrapper .carousel  .empty-iframe {
+    width: calc(100% / 3);
+  }
+  
+ 
+  .wrapper .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .wrapper .arrow.left {
+    left: 1rem;
+  }
+  
+  .wrapper .arrow.right {
+    right: -0.5rem;
+  }
+  
+  
+  .wrapper .carousel {
+    font-size: 0;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    width: calc(100% - 5.5rem);
+    margin: 0 2.75rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 2.75rem;
+    position: relative;
+  }
+  
+  .wrapper .carousel:before,
+  .wrapper .carousel:after {
+    content: "";
+    display: block;
+    width: 2.75rem; 
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    background-color: #343F4F; 
+    z-index: 2; 
+  }
+  .wrapper .carousel:before {
+    left: -2.75rem;
+  }
+  
+  .wrapper .carousel:after {
+    right: -2.75rem; 
+  }
+  .wrapper .carousel  iframe {
+    height: 21.25rem;
+    width: calc(100% / 3 - .875rem); 
+    margin: 0 0.9375rem; 
+  }
+  
+  
+  @media screen and (max-width: 768px)  { 
+    .wrapper .carousel  iframe{
+      width: 100%;
+      
+      
+    }
+
+
+  }
+
+.carousel  iframe.hovered {
+  transform: scale(1.1); 
+  border: 2px solid #f2f2f2; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s ease, border 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+
+
+
