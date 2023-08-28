@@ -425,7 +425,7 @@ p.team-member__subtitle{
 .team-row {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.25rem; 
+ 
 }
 
 
@@ -477,7 +477,7 @@ p.team-member__subtitle{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-bottom: 1.25rem;
+    
   }
 
   .team-member {
@@ -498,7 +498,7 @@ p.team-member__subtitle{
       flex-basis: calc(50% - 16px);
       height: auto;
       width: auto;
-  
+  margin-bottom: 10px;
   }
  
 }
@@ -624,7 +624,7 @@ height: 700px;
   .text {
      
     font-size: 14px;
-    text-align: center;
+   
   }
 }
 span{
