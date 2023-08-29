@@ -425,6 +425,7 @@ p.team-member__subtitle{
 .team-row {
   display: flex;
   justify-content: center;
+  width: 800px;
  
 }
 
@@ -477,6 +478,7 @@ p.team-member__subtitle{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      
     
   }
 
